@@ -91,13 +91,9 @@ function decode(expr) {
             res += `${MORSE_TABLE[`${el}`]}`;
     }); //add to the result string words depending on the morse table
 
-    // console.log(morseArr);
-    // console.log(res);
     return res;
 }
 
 module.exports = {
     decode
 }
-
-// decode("00101010100000000010001011101000101110100000111111**********00001011110000111111000010111000101110100000111010");
